@@ -25,7 +25,7 @@
       "boot_wait": "{{user `boot_time`}}",
       "boot_command": [
         "admin<enter><wait>",
-        "zerotouch cancel<enter><wait>",
+        "zerotouch disable<enter><wait>",
         "<wait{{user `boot_time`}}>",
         "admin<enter><wait>",
         "enable<enter><wait>",
@@ -39,7 +39,12 @@
         "no lldp transmit<enter><wait>",
         "no lldp receive<enter><wait>",
         "ip address dhcp<enter><wait>",
-        "end<enter><wait>",
+	"interface Ethernet 1<enter><wait>",
+	"description OOB-Mgmt<enter><wait>",
+	"no switchport<enter><wait>",
+	"mac-address 4438.3900.0056<enter><wait>",
+	"ip address dhcp<enter><wait>",
+	"end<enter><wait>",
         "copy running-config startup-config<enter><wait>",
         "bash sudo poweroff<enter><wait>",
         "<exit>"
