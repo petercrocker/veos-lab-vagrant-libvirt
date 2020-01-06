@@ -21,7 +21,7 @@ Modified file arista-veos-lab.json to create a vEOS image with interface Etherne
 1. Clone this GitHub repo and _cd_ into the directory.
 
 ```
-git clone https://github.com/mweisel/veos-lab-vagrant-libvirt
+git clone https://github.com/petercrocker/veos-lab-vagrant-libvirt
 cd veos-lab-vagrant-libvirt
 ```
 
