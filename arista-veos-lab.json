@@ -60,7 +60,7 @@
     {
       "type": "vagrant",
       "vagrantfile_template": "src/Vagrantfile",
-      "output": "builds/veos-lab-{{user `version`}}-{{.Provider}}.box"
+      "output": "builds/veos-cumulus-{{user `version`}}-{{.Provider}}.box"
     }
   ]
 }

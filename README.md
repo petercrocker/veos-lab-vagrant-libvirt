@@ -4,7 +4,7 @@ A Packer template for creating an Arista vEOS-lab Vagrant box for the [libvirt](
 
 Forked from https://github.com/mweisel/veos-lab-vagrant-libvirt
 
-Modified file arista-veos-lab.json to create a vEOS image with interface Ethernet1 set as DHCP, with a static MAC address of 44:38:39:00:00:56 for use in the this (Cumulus Linux EVPN interop vagrant environment](https://gitlab.com/petercrocker/cl-evpn-arista-interop.git). 
+Modified file arista-veos-lab.json to create a vEOS image with interface Ethernet1 set as DHCP, with a static MAC address of 44:38:39:00:00:56 for use in the this [Cumulus Linux EVPN interop vagrant environment](https://gitlab.com/petercrocker/cl-evpn-arista-interop.git). 
 
 ## Prerequisites
 
